@@ -1,2 +1,3 @@
 # RezExtractor
-Lithtech Rez extractor
+
+Lithtech Rez file extractor (tool + DLL)
