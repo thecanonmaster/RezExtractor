@@ -408,7 +408,8 @@ begin
     m_InfoCallbackFunc(FS.FileName);
 
   m_Stream.Seek(pRezItem.m_dwFilePos, soBeginning);
-  FS.CopyFrom(m_Stream, pRezItem.m_dwSize);
+  if pRezItem.m_dwSize > 0 then
+    FS.CopyFrom(m_Stream, pRezItem.m_dwSize);
   FS.Free;
 end;
 
@@ -434,7 +435,8 @@ begin
     m_InfoCallbackFunc(FS.FileName);
 
   m_Stream.Seek(pRezItem.m_dwFilePos, soBeginning);
-  FS.CopyFrom(m_Stream, pRezItem.m_dwSize);
+  if pRezItem.m_dwSize > 0 then
+    FS.CopyFrom(m_Stream, pRezItem.m_dwSize);
   FS.Free;
 
   bContinue := True;

@@ -6,7 +6,7 @@ uses
   Classes, SysUtils, rez;
 
 const
-  C_VERSION = 'RezMgrPas v0.07';
+  C_VERSION = 'RezMgrPas v0.08';
 
 var
   g_pRezMgr: TRezMgr;
