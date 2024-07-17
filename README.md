@@ -1,6 +1,6 @@
 # RezExtractor
 
-Lithtech Rez file extractor (tool + DLL)
+Lithtech Rez file extractor (tool + dynamic link library)
 
 ### Usage:
 ```
